@@ -1593,7 +1593,15 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		/* margin: 0 0 2em 0; */
+	}
+
+	.projects {
+		margin-bottom: 30px;
+	}
+
+	.project-links a {
+		margin: 0 10px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1783,7 +1791,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			content: '';
 			height: 100%;
 			left: 0;
