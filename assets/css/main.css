@@ -1853,6 +1853,18 @@
 			width: 2.25em;
 		}
 
+		.redux-icon {
+			height: 100px;
+			font-family: devicon;
+	    speak: none;
+	    font-style: normal;
+	    font-weight: 400;
+	    font-variant: normal;
+	    text-transform: none;
+	    line-height: 1;
+	    -webkit-font-smoothing: antialiased;
+		}
+
 			.icon.circle:hover {
 				top: -0.2em;
 			}
