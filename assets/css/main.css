@@ -1884,14 +1884,30 @@
 					background: #df7b77;
 				}
 
-			.icon.circle.fa-github {
-				background: #dcad8b;
+			.icon.circle .fa-github {
+				/* background: #dcad8b; */
 				color: #fff;
+				width: 100%;
+				height: 100%;
 			}
 
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+				.icon.circle .fa-github:hover {
+					color: #3fb1a3;
 				}
+
+			.icons .icon {
+				color: white;
+			}
+
+			.icon.circle .fa-linkedin-in {
+				color: #fff;
+				width: 100%;
+				height: 100%;
+			}
+
+			.icon.circle .fa-linkedin-in:hover {
+				color: #3fb1a3;
+			}
 
 			.icon.circle.fa-dribbble {
 				background: #da83ae;
