@@ -1923,6 +1923,7 @@
 
 	.skills {
 		text-align: center;
+		color: #7c8081;
 	}
 
 	ol.default {
@@ -1980,38 +1981,55 @@
 				width: 1em;
 			}
 
+			.devicon-webpack-plain-wordmark {
+				font-size: 5.25em;
+			}
+			.devicon-sass-original {
+				font-size: 4.25em;
+			}
+			.devicon-heroku-plain-wordmark {
+				font-size: 4.25em;
+			}
+			.devicon-git-plain-wordmark {
+				font-size: 4.25em;
+			}
+			.devicon-react-original-wordmark {
+				font-size: 4.25em;
+			}
 			.devicon-javascript-plain {
+				font-size: 3.75em;
+			}
+
+			.devicon-jquery-plain-wordmark {
 				font-size: 4.25em;
 			}
 
-			.devicon-jquery-plain {
+			.devicon-postgresql-plain-wordmark {
 				font-size: 4.25em;
 			}
 
-			.devicon-postgresql-plain {
+			.devicon-ruby-plain-wordmark {
 				font-size: 4.25em;
+				/* color: #d91404; */
 			}
 
-			.devicon-ruby-plain {
+			.devicon-rails-plain-wordmark {
 				font-size: 4.25em;
-				color: #d91404;
-			}
-
-			.devicon-rails-plain {
-				font-size: 4.25em;
-				color: #d91404;
+				/* color: #d91404; */
 			}
 
 			.fa-react {
 				color: #61dafb;
 			}
 
-			.fa-html5 {
-				color: #e85f3d;
+			.devicon-html5-plain-wordmark {
+				font-size: 4.25em;
+				/* color: #e85f3d; */
 			}
 
-			.fa-css3-alt {
-				color: #3d8fc7;
+			.devicon-css3-plain-wordmark {
+				font-size: 4.25em;
+				/* color: #3d8fc7; */
 			}
 
 	ul.buttons {
@@ -2152,7 +2170,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #666666;
+			background-color: #ffffff;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
