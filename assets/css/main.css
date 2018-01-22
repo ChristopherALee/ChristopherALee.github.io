@@ -225,7 +225,7 @@
 	}
 
 	.row > * {
-		float: left;
+		/* float: left; */
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -367,7 +367,7 @@
 	}
 
 	.\38 u, .\38 u\24 {
-		width: 66.6666666667%;
+		/* width: 66.6666666667%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -391,7 +391,7 @@
 	}
 
 	.\34 u, .\34 u\24 {
-		width: 33.3333333333%;
+		/* width: 33.3333333333%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -442,7 +442,7 @@
 	}
 
 	.\-8u {
-		margin-left: 66.66667%;
+		/* margin-left: 66.66667%; */
 	}
 
 	.\-7u {
@@ -458,7 +458,7 @@
 	}
 
 	.\-4u {
-		margin-left: 33.33333%;
+		/* margin-left: 33.33333%; */
 	}
 
 	.\-3u {
@@ -1300,7 +1300,7 @@
 		}
 
 		.\-8u\28narrower\29 {
-			margin-left: 66.66667%;
+			/* margin-left: 66.66667%; */
 		}
 
 		.\-7u\28narrower\29 {
@@ -1316,7 +1316,7 @@
 		}
 
 		.\-4u\28narrower\29 {
-			margin-left: 33.33333%;
+			/* margin-left: 33.33333%; */
 		}
 
 		.\-3u\28narrower\29 {
@@ -1948,7 +1948,6 @@
 	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
-		opacity: 0.35;
 		overflow: hidden;
 		position: relative;
 	}
@@ -1957,15 +1956,50 @@
 			display: block;
 			float: left;
 			text-align: center;
-			width: 50%;
+			width: 33.3%;
+			margin-bottom: 75px;
 		}
 
 			ul.featured-icons li .icon {
 				display: inline-block;
-				font-size: 6.25em;
+				font-size: 4.25em;
 				height: 1.25em;
 				line-height: 1.25em;
 				width: 1em;
+			}
+
+			.devicon-javascript-plain {
+				font-size: 4.25em;
+			}
+
+			.devicon-jquery-plain {
+				font-size: 4.25em;
+			}
+
+			.devicon-postgresql-plain {
+				font-size: 4.25em;
+			}
+
+			.devicon-ruby-plain {
+				font-size: 4.25em;
+				color: #d91404;
+			}
+
+			.devicon-rails-plain {
+				font-size: 4.25em;
+				color: #d91404;
+			}
+
+			.fa-react {
+				color: #61dafb;
+			}
+
+			.fa-html5 {
+				color: #e85f3d;
+			}
+
+			.fa-css3-alt {
+				color: #3d8fc7;
 			}
 
 	ul.buttons {
@@ -2106,7 +2140,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #666666;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
