@@ -1952,6 +1952,7 @@
 	.skills {
 		text-align: center;
 		color: #7c8081;
+		margin-bottom: 3em;
 	}
 
 	ol.default {
@@ -2492,11 +2493,15 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		/* background-color: #645862; */
+		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+		/* background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover; */
+		background-image: url("../../images/background.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2522,7 +2527,7 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(0, 0, 0, 0.5);
+			background: rgba(0, 0, 0, 0.6);
 			color: #fff;
 			/* display: inline-block; */
 			display: flex;
@@ -2604,11 +2609,15 @@
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		/* background-color: #645862; */
+		/* background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover; */
+		background-image: url("../../images/footer-background3.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
@@ -2789,7 +2798,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				/* background-size: 15em, 15em, auto, cover; */
 			}
 
 		/* Main */
@@ -2801,7 +2810,7 @@
 		/* CTA */
 
 			#cta {
-				background-size: 15em, 15em, auto, cover;
+				/* background-size: 15em, 15em, auto, cover; */
 				padding: 3em;
 			}
 
@@ -3231,7 +3240,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				/* background-size: 10em, 10em, auto, cover; */
 				padding: 6em 0;
 			}
 
@@ -3271,7 +3280,7 @@
 		/* CTA */
 
 			#cta {
-				background-size: 10em, 10em, auto, cover;
+				/* background-size: 10em, 10em, auto, cover; */
 				padding: 3em 1.5em;
 			}
 
