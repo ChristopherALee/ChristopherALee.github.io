@@ -1896,6 +1896,10 @@
 					background: #df7b77;
 				}
 
+			.email-content {
+				font-size: 20px;
+			}
+
 			.icon.circle .fa-github {
 				/* background: #dcad8b; */
 				color: #fff;
@@ -1904,7 +1908,7 @@
 			}
 
 				.icon.circle .fa-github:hover {
-					color: #3fb1a3;
+					color: #000000;
 				}
 
 			.icons .icon {
@@ -1918,7 +1922,7 @@
 			}
 
 			.icon.circle .fa-linkedin-in:hover {
-				color: #3fb1a3;
+				color: #0968ae;
 			}
 
 			.icon.circle.fa-dribbble {
