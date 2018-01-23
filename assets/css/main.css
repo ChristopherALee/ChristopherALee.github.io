@@ -2009,6 +2009,12 @@
 				width: 1em;
 			}
 
+			.devicon-photoshop-plain {
+				font-size: 4.25em;
+			}
+			.devicon-amazonwebservices-plain-wordmark {
+				font-size: 5.25em;
+			}
 			.devicon-webpack-plain-wordmark {
 				font-size: 5.25em;
 			}
@@ -3231,7 +3237,7 @@
 
 				#banner .inner {
 					background: none;
-					display: block;
+					display: flex;
 					padding: 0 1.5em;
 				}
 
