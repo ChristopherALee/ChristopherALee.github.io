@@ -3253,9 +3253,9 @@
 			}
 
 				#banner .inner {
-					background: none;
+					/* background: none; */
 					display: flex;
-					padding: 0 1.5em;
+					padding: 1.5em 1.5em 0 1.5em;
 				}
 
 					#banner .inner header h2 {
