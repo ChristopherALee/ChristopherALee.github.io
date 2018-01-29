@@ -1929,6 +1929,15 @@
 				color: #0968ae;
 			}
 
+			.icon.circle .fa-file-alt {
+				width: 100%;
+				height: 100%;
+			}
+
+			.icon.circle .fa-file-alt:hover {
+				color: #4f8bff;
+			}
+
 			.icon.circle.fa-dribbble {
 				background: #da83ae;
 				color: #fff;
