@@ -3754,7 +3754,7 @@
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px !important;
+				/* padding-top: 44px !important; */
 			}
 
 			#titleBar {
@@ -4072,6 +4072,21 @@
 	align-items: center;
 }
 
+@media (max-width: 800px) {
+	.footer-row-container {
+		flex-direction: column;
+	}
+
+	.cal-logo-holder {
+		margin-bottom: 20px;
+	}
+
+	.email-container {
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+}
+
 .footer-email-content {
 	padding: 55px !important;
 }
@@ -4083,10 +4098,13 @@
 
 .fa-envelope {
 	margin-right: 20px;
+	font-size: 18px;
 }
 
 .email-container > p {
 	margin: 0;
+	font-size: 18px;
+	letter-spacing: 1px;
 }
 
 .icon {
