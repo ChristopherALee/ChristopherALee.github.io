@@ -3008,7 +3008,7 @@
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 2.1em 0 2.1em 0;
 			width: 100%;
 		}
 
@@ -3522,7 +3522,7 @@
 			}
 
 			.spotlight.bottom .content {
-				padding: 3.825em 0 2.95em 0;
+				padding: 1.825em 0 0.95em 0;
 			}
 
 			.spotlight.left .content, .spotlight.right .content {
